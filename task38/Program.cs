@@ -42,7 +42,7 @@ for (int i = 0; i < arrya.Length; i++)
     arrya[i] = new Random().Next(1, 101);
 }
 
-double diff = posMax(arrya)-posMin(arrya);
+double diff = posMax(arrya) - posMin(arrya);
 
 printArrya(arrya);
 Console.WriteLine(posMax(arrya));
